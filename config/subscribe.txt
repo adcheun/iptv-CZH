@@ -2,7 +2,14 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
+# 订阅源地址，多个地址用逗号隔开
+source_urls = https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u, https://iptv-org.github.io/iptv/index.m3u
 
+# 是否开启自动搜索（如果订阅源不够，建议开启）
+open_search = True
+
+# 想要获取的频道分类模板
+source_file = config/user_demo.txt
 
 
 
